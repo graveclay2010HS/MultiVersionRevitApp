@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command MuliVersionRevitApp</Text>
+    <Description>Some description for MuliVersionRevitApp</Description>
+    <Assembly>MuliVersionRevitApp.dll</Assembly>
+    <FullClassName>MuliVersionRevitApp.Command</FullClassName>
+    <ClientId>6695353a-b4bf-4765-8364-92645f0a76de</ClientId>
+    <VendorId>DynamiteRevit</VendorId>
+    <VendorDescription>DynamiteRevit, http://dynamiterevit.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application MuliVersionRevitApp</Name>
+    <Assembly>MuliVersionRevitApp.dll</Assembly>
+    <FullClassName>MuliVersionRevitApp.App</FullClassName>
+    <ClientId>9c9c9a60-dd27-4f04-8da1-2338aaa83850</ClientId>
+    <VendorId>DynamiteRevit</VendorId>
+    <VendorDescription>DynamiteRevit, http://dynamiterevit.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
